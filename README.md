@@ -24,6 +24,8 @@ folder.showsNotch = YES;
 [folder open]; // opens the folder.
 ```
 
+// add comm
+
 An issue can arise if the folder is set to show the notch, and the `position` is set to a point with an x-coordinate of 0. The notch will appear to be cut off on the left side of the screen. This can be simply resolved by providing a non-zero x-coordinate. Most likely this will be the center of the item from which you present the folder.
 
 **Please check the header file for complete documentation.**
